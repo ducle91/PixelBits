@@ -21,5 +21,11 @@ music & sound.
 *Asante and Allen will type up paper
 *Try to have a practice presentation by 9/10/2015
 
-
+##10/21/2015##
+-Camera works
+-Levels are done
+-TODO: Picking up blocks
+     -If ray cast hits the block, set it true 
+     -Allow user to left-click and pick up block
+     -User left-click again and the box will be drop in front of the player.
 
