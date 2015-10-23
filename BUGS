@@ -1,0 +1,9 @@
+Keep track of any bugs that you find.
+
+This is how you should document the bug you find.
+STEPS:
+-reproduce the problem consistently
+-collect clues
+-pinpoint the problem
+-repair the problem
+-test the solution	
