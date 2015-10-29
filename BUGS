@@ -1,0 +1,18 @@
+Keep track of any bugs that you find.
+
+This is how you should document the bug you find.
+STEPS:
+-reproduce the problem consistently
+-collect clues
+-pinpoint the problem
+-repair the problem
+-test the solution	
+
+Bugs:
+1. Player cannot jump while moving.
+
+2. You when you grab an object, you grab every single one rather than the one you are pointing at.
+
+3. When the block is grabbed, it steadily decends and would eventually pass trough the plane
+
+4. The player suddenly start rotating after moving, but it isn't noticable until you stand still for a while.
