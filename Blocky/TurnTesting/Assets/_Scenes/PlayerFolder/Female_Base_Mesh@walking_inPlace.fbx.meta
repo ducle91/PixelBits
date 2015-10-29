@@ -1,0 +1,367 @@
+fileFormatVersion: 2
+guid: 65f2663ba927a0845b99ef49c6790b48
+timeCreated: 1443291341
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: female_Hi
+    100004: FemaleBaseMesh:Head
+    100006: FemaleBaseMesh:HeadTop_End
+    100008: FemaleBaseMesh:Hips
+    100010: FemaleBaseMesh:LeftArm
+    100012: FemaleBaseMesh:LeftFoot
+    100014: FemaleBaseMesh:LeftForeArm
+    100016: FemaleBaseMesh:LeftHand
+    100018: FemaleBaseMesh:LeftHandIndex1
+    100020: FemaleBaseMesh:LeftHandIndex2
+    100022: FemaleBaseMesh:LeftHandIndex3
+    100024: FemaleBaseMesh:LeftHandIndex4
+    100026: FemaleBaseMesh:LeftHandMiddle1
+    100028: FemaleBaseMesh:LeftHandMiddle2
+    100030: FemaleBaseMesh:LeftHandMiddle3
+    100032: FemaleBaseMesh:LeftHandMiddle4
+    100034: FemaleBaseMesh:LeftHandPinky1
+    100036: FemaleBaseMesh:LeftHandPinky2
+    100038: FemaleBaseMesh:LeftHandPinky3
+    100040: FemaleBaseMesh:LeftHandPinky4
+    100042: FemaleBaseMesh:LeftHandRing1
+    100044: FemaleBaseMesh:LeftHandRing2
+    100046: FemaleBaseMesh:LeftHandRing3
+    100048: FemaleBaseMesh:LeftHandRing4
+    100050: FemaleBaseMesh:LeftHandThumb1
+    100052: FemaleBaseMesh:LeftHandThumb2
+    100054: FemaleBaseMesh:LeftHandThumb3
+    100056: FemaleBaseMesh:LeftHandThumb4
+    100058: FemaleBaseMesh:LeftLeg
+    100060: FemaleBaseMesh:LeftShoulder
+    100062: FemaleBaseMesh:LeftToe_End
+    100064: FemaleBaseMesh:LeftToeBase
+    100066: FemaleBaseMesh:LeftUpLeg
+    100068: FemaleBaseMesh:Neck
+    100070: FemaleBaseMesh:RightArm
+    100072: FemaleBaseMesh:RightFoot
+    100074: FemaleBaseMesh:RightForeArm
+    100076: FemaleBaseMesh:RightHand
+    100078: FemaleBaseMesh:RightHandIndex1
+    100080: FemaleBaseMesh:RightHandIndex2
+    100082: FemaleBaseMesh:RightHandIndex3
+    100084: FemaleBaseMesh:RightHandIndex4
+    100086: FemaleBaseMesh:RightHandMiddle1
+    100088: FemaleBaseMesh:RightHandMiddle2
+    100090: FemaleBaseMesh:RightHandMiddle3
+    100092: FemaleBaseMesh:RightHandMiddle4
+    100094: FemaleBaseMesh:RightHandPinky1
+    100096: FemaleBaseMesh:RightHandPinky2
+    100098: FemaleBaseMesh:RightHandPinky3
+    100100: FemaleBaseMesh:RightHandPinky4
+    100102: FemaleBaseMesh:RightHandRing1
+    100104: FemaleBaseMesh:RightHandRing2
+    100106: FemaleBaseMesh:RightHandRing3
+    100108: FemaleBaseMesh:RightHandRing4
+    100110: FemaleBaseMesh:RightHandThumb1
+    100112: FemaleBaseMesh:RightHandThumb2
+    100114: FemaleBaseMesh:RightHandThumb3
+    100116: FemaleBaseMesh:RightHandThumb4
+    100118: FemaleBaseMesh:RightLeg
+    100120: FemaleBaseMesh:RightShoulder
+    100122: FemaleBaseMesh:RightToe_End
+    100124: FemaleBaseMesh:RightToeBase
+    100126: FemaleBaseMesh:RightUpLeg
+    100128: FemaleBaseMesh:Spine
+    100130: FemaleBaseMesh:Spine1
+    100132: FemaleBaseMesh:Spine2
+    400000: //RootNode
+    400002: female_Hi
+    400004: FemaleBaseMesh:Head
+    400006: FemaleBaseMesh:HeadTop_End
+    400008: FemaleBaseMesh:Hips
+    400010: FemaleBaseMesh:LeftArm
+    400012: FemaleBaseMesh:LeftFoot
+    400014: FemaleBaseMesh:LeftForeArm
+    400016: FemaleBaseMesh:LeftHand
+    400018: FemaleBaseMesh:LeftHandIndex1
+    400020: FemaleBaseMesh:LeftHandIndex2
+    400022: FemaleBaseMesh:LeftHandIndex3
+    400024: FemaleBaseMesh:LeftHandIndex4
+    400026: FemaleBaseMesh:LeftHandMiddle1
+    400028: FemaleBaseMesh:LeftHandMiddle2
+    400030: FemaleBaseMesh:LeftHandMiddle3
+    400032: FemaleBaseMesh:LeftHandMiddle4
+    400034: FemaleBaseMesh:LeftHandPinky1
+    400036: FemaleBaseMesh:LeftHandPinky2
+    400038: FemaleBaseMesh:LeftHandPinky3
+    400040: FemaleBaseMesh:LeftHandPinky4
+    400042: FemaleBaseMesh:LeftHandRing1
+    400044: FemaleBaseMesh:LeftHandRing2
+    400046: FemaleBaseMesh:LeftHandRing3
+    400048: FemaleBaseMesh:LeftHandRing4
+    400050: FemaleBaseMesh:LeftHandThumb1
+    400052: FemaleBaseMesh:LeftHandThumb2
+    400054: FemaleBaseMesh:LeftHandThumb3
+    400056: FemaleBaseMesh:LeftHandThumb4
+    400058: FemaleBaseMesh:LeftLeg
+    400060: FemaleBaseMesh:LeftShoulder
+    400062: FemaleBaseMesh:LeftToe_End
+    400064: FemaleBaseMesh:LeftToeBase
+    400066: FemaleBaseMesh:LeftUpLeg
+    400068: FemaleBaseMesh:Neck
+    400070: FemaleBaseMesh:RightArm
+    400072: FemaleBaseMesh:RightFoot
+    400074: FemaleBaseMesh:RightForeArm
+    400076: FemaleBaseMesh:RightHand
+    400078: FemaleBaseMesh:RightHandIndex1
+    400080: FemaleBaseMesh:RightHandIndex2
+    400082: FemaleBaseMesh:RightHandIndex3
+    400084: FemaleBaseMesh:RightHandIndex4
+    400086: FemaleBaseMesh:RightHandMiddle1
+    400088: FemaleBaseMesh:RightHandMiddle2
+    400090: FemaleBaseMesh:RightHandMiddle3
+    400092: FemaleBaseMesh:RightHandMiddle4
+    400094: FemaleBaseMesh:RightHandPinky1
+    400096: FemaleBaseMesh:RightHandPinky2
+    400098: FemaleBaseMesh:RightHandPinky3
+    400100: FemaleBaseMesh:RightHandPinky4
+    400102: FemaleBaseMesh:RightHandRing1
+    400104: FemaleBaseMesh:RightHandRing2
+    400106: FemaleBaseMesh:RightHandRing3
+    400108: FemaleBaseMesh:RightHandRing4
+    400110: FemaleBaseMesh:RightHandThumb1
+    400112: FemaleBaseMesh:RightHandThumb2
+    400114: FemaleBaseMesh:RightHandThumb3
+    400116: FemaleBaseMesh:RightHandThumb4
+    400118: FemaleBaseMesh:RightLeg
+    400120: FemaleBaseMesh:RightShoulder
+    400122: FemaleBaseMesh:RightToe_End
+    400124: FemaleBaseMesh:RightToeBase
+    400126: FemaleBaseMesh:RightUpLeg
+    400128: FemaleBaseMesh:Spine
+    400130: FemaleBaseMesh:Spine1
+    400132: FemaleBaseMesh:Spine2
+    4300000: female_Hi
+    7400000: walking_inPlace
+    9500000: //RootNode
+    13700000: female_Hi
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walking_inPlace
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: female_Hi
+        weight: 1
+      - path: FemaleBaseMesh:Hips
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:LeftUpLeg
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:LeftUpLeg/FemaleBaseMesh:LeftLeg
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:LeftUpLeg/FemaleBaseMesh:LeftLeg/FemaleBaseMesh:LeftFoot
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:LeftUpLeg/FemaleBaseMesh:LeftLeg/FemaleBaseMesh:LeftFoot/FemaleBaseMesh:LeftToeBase
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:LeftUpLeg/FemaleBaseMesh:LeftLeg/FemaleBaseMesh:LeftFoot/FemaleBaseMesh:LeftToeBase/FemaleBaseMesh:LeftToe_End
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:RightUpLeg
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:RightUpLeg/FemaleBaseMesh:RightLeg
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:RightUpLeg/FemaleBaseMesh:RightLeg/FemaleBaseMesh:RightFoot
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:RightUpLeg/FemaleBaseMesh:RightLeg/FemaleBaseMesh:RightFoot/FemaleBaseMesh:RightToeBase
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:RightUpLeg/FemaleBaseMesh:RightLeg/FemaleBaseMesh:RightFoot/FemaleBaseMesh:RightToeBase/FemaleBaseMesh:RightToe_End
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandIndex1
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandIndex1/FemaleBaseMesh:LeftHandIndex2
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandIndex1/FemaleBaseMesh:LeftHandIndex2/FemaleBaseMesh:LeftHandIndex3
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandIndex1/FemaleBaseMesh:LeftHandIndex2/FemaleBaseMesh:LeftHandIndex3/FemaleBaseMesh:LeftHandIndex4
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandMiddle1
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandMiddle1/FemaleBaseMesh:LeftHandMiddle2
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandMiddle1/FemaleBaseMesh:LeftHandMiddle2/FemaleBaseMesh:LeftHandMiddle3
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandMiddle1/FemaleBaseMesh:LeftHandMiddle2/FemaleBaseMesh:LeftHandMiddle3/FemaleBaseMesh:LeftHandMiddle4
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandPinky1
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandPinky1/FemaleBaseMesh:LeftHandPinky2
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandPinky1/FemaleBaseMesh:LeftHandPinky2/FemaleBaseMesh:LeftHandPinky3
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandPinky1/FemaleBaseMesh:LeftHandPinky2/FemaleBaseMesh:LeftHandPinky3/FemaleBaseMesh:LeftHandPinky4
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandRing1
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandRing1/FemaleBaseMesh:LeftHandRing2
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandRing1/FemaleBaseMesh:LeftHandRing2/FemaleBaseMesh:LeftHandRing3
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandRing1/FemaleBaseMesh:LeftHandRing2/FemaleBaseMesh:LeftHandRing3/FemaleBaseMesh:LeftHandRing4
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandThumb1
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandThumb1/FemaleBaseMesh:LeftHandThumb2
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandThumb1/FemaleBaseMesh:LeftHandThumb2/FemaleBaseMesh:LeftHandThumb3
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:LeftShoulder/FemaleBaseMesh:LeftArm/FemaleBaseMesh:LeftForeArm/FemaleBaseMesh:LeftHand/FemaleBaseMesh:LeftHandThumb1/FemaleBaseMesh:LeftHandThumb2/FemaleBaseMesh:LeftHandThumb3/FemaleBaseMesh:LeftHandThumb4
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:Neck
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:Neck/FemaleBaseMesh:Head
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:Neck/FemaleBaseMesh:Head/FemaleBaseMesh:HeadTop_End
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandIndex1
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandIndex1/FemaleBaseMesh:RightHandIndex2
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandIndex1/FemaleBaseMesh:RightHandIndex2/FemaleBaseMesh:RightHandIndex3
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandIndex1/FemaleBaseMesh:RightHandIndex2/FemaleBaseMesh:RightHandIndex3/FemaleBaseMesh:RightHandIndex4
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandMiddle1
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandMiddle1/FemaleBaseMesh:RightHandMiddle2
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandMiddle1/FemaleBaseMesh:RightHandMiddle2/FemaleBaseMesh:RightHandMiddle3
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandMiddle1/FemaleBaseMesh:RightHandMiddle2/FemaleBaseMesh:RightHandMiddle3/FemaleBaseMesh:RightHandMiddle4
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandPinky1
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandPinky1/FemaleBaseMesh:RightHandPinky2
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandPinky1/FemaleBaseMesh:RightHandPinky2/FemaleBaseMesh:RightHandPinky3
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandPinky1/FemaleBaseMesh:RightHandPinky2/FemaleBaseMesh:RightHandPinky3/FemaleBaseMesh:RightHandPinky4
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandRing1
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandRing1/FemaleBaseMesh:RightHandRing2
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandRing1/FemaleBaseMesh:RightHandRing2/FemaleBaseMesh:RightHandRing3
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandRing1/FemaleBaseMesh:RightHandRing2/FemaleBaseMesh:RightHandRing3/FemaleBaseMesh:RightHandRing4
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandThumb1
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandThumb1/FemaleBaseMesh:RightHandThumb2
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandThumb1/FemaleBaseMesh:RightHandThumb2/FemaleBaseMesh:RightHandThumb3
+        weight: 1
+      - path: FemaleBaseMesh:Hips/FemaleBaseMesh:Spine/FemaleBaseMesh:Spine1/FemaleBaseMesh:Spine2/FemaleBaseMesh:RightShoulder/FemaleBaseMesh:RightArm/FemaleBaseMesh:RightForeArm/FemaleBaseMesh:RightHand/FemaleBaseMesh:RightHandThumb1/FemaleBaseMesh:RightHandThumb2/FemaleBaseMesh:RightHandThumb3/FemaleBaseMesh:RightHandThumb4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
