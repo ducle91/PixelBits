@@ -5,7 +5,7 @@ public class GrabBlocks : MonoBehaviour
 {
 
 	//This function should hold just the boolean to check if the player is holding it
-	public bool holding = false;
+	public bool grabbed = false;
 	public GameObject p;
 	Ray myRay;
 	RaycastHit hit;
@@ -28,11 +28,11 @@ public class GrabBlocks : MonoBehaviour
 	{
 		//Debug.DrawRay(p.transform.position + rayOffset, p.transform.forward * distance);
 		//Debug.DrawRay(transform.position, Input.mousePosition * distance);
-		if (holding) {
+		if (grabbed) {
 			transform.position = p.transform.position + blockOffset + p.transform.forward * 1.0f;
 			DisableKinematic ();
 		} 
-		if(!holding)
+		if(!grabbed)
 		{
 			EnableKinematic ();
 		}
@@ -59,6 +59,7 @@ public class GrabBlocks : MonoBehaviour
 		if (GameObject.FindGameObjectWithTag("Cube")) {
 			rb.isKinematic = false;
 			rb.detectCollisions = true;
+            rb.velocity = Vector3.zero;
 		}
 	}
 
@@ -68,6 +69,7 @@ public class GrabBlocks : MonoBehaviour
 		{
 			rb.isKinematic = true;
 			rb.detectCollisions = false;
+            rb.velocity = Vector3.zero;
 		}
 	}
 

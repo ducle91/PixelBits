@@ -12,13 +12,18 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rb; 
     public Animator child;
     public Animation a;
-
+    
     Ray ray;
 
     Vector3 rayOffset, blockOffset;
 
     private bool jumping = false;
-    public bool grabbed = false;
+    private bool inAir = false;
+    private bool ground = false;
+    private bool increaseHeight = false;
+
+    private float maxHeight;
+    public bool holding = false;
 
     // Use this for initialization
     void Start()
@@ -50,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
         }
        
 
-        if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))
+        if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S) && !jumping)
         {
             child.Play("Idle");
         }
@@ -70,36 +75,63 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+        if(Input.GetKey(KeyCode.Space)){
+
+            jump();
+    
+        }
+
+        /*
         if (Input.GetKeyDown(KeyCode.Space)){
 
             jumping = true;
             child.Play("Jump");       
-			rb.AddForce(new Vector3(0,3,0));
+			//rb.AddForce(rb.transform.position);
+            rb.transform.position += new Vector3(0, .2f, 0);
+            //rb.GetComponent<Transform>().position.y = 3.0f;
             //rb.AddForce(Vector3.up);
             //jumping = false;
-
+            
         }
+         
+
 		if(Input.GetKeyUp(KeyCode.Space))
 		{
 			jumping = false;
-			//child.Play("Walking");
+			child.Play("Walking");
 		}
-
+        */
         
-        //grab check for player to blocks
+        if(inAir)
+        {
+            rb.freezeRotation = true;
+            rb.transform.position += new Vector3(0, .2f, 0);     
+        }
+
+        if (rb.transform.position.y > maxHeight)
+        {
+            inAir = false;
+        }
+
+        if (ground)
+        {
+            rb.freezeRotation = true;
+        }
+        
     }
 
     void FixedUpdate()
     {
+        
         if (Input.GetMouseButtonUp(1))
         {
-            if (grabbed)
+            if (holding)
 			{
 			
                 Debug.Log("Holding");
 			    //ray = new Ray(new Vector3(0,0,0),new Vector3(0,0,0));
 			}
-            if(!grabbed)
+            if(!holding)
 			{
 
                 Debug.Log("No Holding");
@@ -112,7 +144,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(Input.GetMouseButtonUp(0)){
 
-            if (grabbed)
+            if (holding)
             {
 
                 letGo(); 
@@ -135,16 +167,16 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit target;
         if(Physics.Raycast(ray, out target, 2)){
             Debug.Log(target.collider.tag);
-            target.collider.gameObject.GetComponent<GrabBlocks>().holding = true;
-            if (grabbed)
+            target.collider.gameObject.GetComponent<GrabBlocks>().grabbed = true;
+            if (holding)
             {
 				ray = new Ray(transform.position + rayOffset, transform.forward * 1);
 				Debug.DrawRay(transform.position + rayOffset, transform.forward * 1);
-                grabbed = false;
+                holding = false;
             }
             else
             {
-                grabbed = true;
+                holding = true;
             }
         }
     }
@@ -156,9 +188,23 @@ public class PlayerMovement : MonoBehaviour
         {
 			ray = new Ray(transform.position + rayOffset, new Vector3(0,0,0));
 			Debug.DrawRay(transform.position + rayOffset, new Vector3(0,0,0));
-            b.holding = false; 
+            b.grabbed = false; 
         }
-        grabbed = false;
+        holding = false;
+    }
+
+    void jump()
+    {
+        maxHeight = rb.transform.position.y + 1;
+        inAir = true;
+    }
+
+    void OnCollisionEnter(Collision coll)
+    {
+        if(coll.gameObject.tag == "Stacks"){
+            rb.freezeRotation = true;
+            Debug.Log("Hit");
+        }
     }
     
 }
