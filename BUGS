@@ -16,3 +16,5 @@ Bugs:
 3. When the block is grabbed, it steadily decends and would eventually pass trough the plane
 
 4. The player suddenly start rotating after moving, but it isn't noticable until you stand still for a while.
+
+5. Camera won't rotate respectively of the mouse's position
