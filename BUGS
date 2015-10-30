@@ -17,4 +17,6 @@ Bugs:
 
 4. The player suddenly start rotating after moving, but it isn't noticable until you stand still for a while.
 
-5. Camera won't rotate respectively of the mouse's position
+  -Allen's bugs:
+    -Camera won't rotate respectively of mouse's position
+    -Orthographic view is more 2.5D/3D, than 2D
