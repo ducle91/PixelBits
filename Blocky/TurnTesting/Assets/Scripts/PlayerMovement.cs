@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     private float maxHeight;
     public bool holding = false;
 
+    const float gravity = 9.81f;
     // Use this for initialization
     void Start()
     {
@@ -45,17 +46,17 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             rb.position += rb.transform.forward * Time.deltaTime * movementSpeed;
-            if(!jumping) child.Play("Walking");
+            if (!child.GetCurrentAnimatorStateInfo(0).IsName("Jump")) child.Play("Walking");
         }
 
         if (Input.GetKey(KeyCode.S))
         {
             rb.position -= rb.transform.forward * Time.deltaTime * movementSpeed;
-            if(!jumping)child.Play("Walking");
+            if(!child.GetCurrentAnimatorStateInfo(0).IsName("Jump")) child.Play("Walking");
         }
        
 
-        if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S) && !jumping)
+        if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S) && !child.GetCurrentAnimatorStateInfo(0).IsName("Jump"))
         {
             child.Play("Idle");
         }
@@ -75,17 +76,14 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-        if(Input.GetKey(KeyCode.Space)){
-
-            jump();
     
-        }
 
-        /*
+        
         if (Input.GetKeyDown(KeyCode.Space)){
 
             jumping = true;
-            child.Play("Jump");       
+            child.Play("Jump");
+            jump();
 			//rb.AddForce(rb.transform.position);
             rb.transform.position += new Vector3(0, .2f, 0);
             //rb.GetComponent<Transform>().position.y = 3.0f;
@@ -97,15 +95,17 @@ public class PlayerMovement : MonoBehaviour
 
 		if(Input.GetKeyUp(KeyCode.Space))
 		{
-			jumping = false;
-			child.Play("Walking");
+	        jumping = false;
+			//child.Play("Walking");
 		}
-        */
+        
         
         if(inAir)
         {
             rb.freezeRotation = true;
-            rb.transform.position += new Vector3(0, .2f, 0);     
+            rb.transform.position += new Vector3(0, .2f, 0); 
+            
+            
         }
 
         if (rb.transform.position.y > maxHeight)
@@ -195,6 +195,7 @@ public class PlayerMovement : MonoBehaviour
 
     void jump()
     {
+        //rb.AddForce(0, gravity*20f, 0);
         maxHeight = rb.transform.position.y + 1;
         inAir = true;
     }

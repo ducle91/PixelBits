@@ -29,7 +29,7 @@ public class GrabBlocks : MonoBehaviour
 		//Debug.DrawRay(p.transform.position + rayOffset, p.transform.forward * distance);
 		//Debug.DrawRay(transform.position, Input.mousePosition * distance);
 		if (grabbed) {
-			transform.position = p.transform.position + blockOffset + p.transform.forward * 1.0f;
+			transform.position = p.transform.position + blockOffset + p.transform.forward * 1.5f;
 			DisableKinematic ();
 		} 
 		if(!grabbed)
@@ -39,6 +39,7 @@ public class GrabBlocks : MonoBehaviour
 
 	}
 
+/*
 	void rayRangeTest ()
 	{
 
@@ -53,6 +54,7 @@ public class GrabBlocks : MonoBehaviour
 			Debug.Log ("Nothing");
 		}
 	}
+*/
 
 	void EnableKinematic ()
 	{
