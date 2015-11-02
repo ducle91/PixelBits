@@ -76,19 +76,17 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
-    
 
-        
-        if (Input.GetKeyDown(KeyCode.Space)){
+
+
+        if (Input.GetKeyDown(KeyCode.Space) && !child.GetCurrentAnimatorStateInfo(0).IsName("Jump"))
+        {
 
             jumping = true;
-            child.Play("Jump");
+            
             jump();
 			//rb.AddForce(rb.transform.position);
             rb.transform.position += new Vector3(0, .2f, 0);
-            //rb.GetComponent<Transform>().position.y = 3.0f;
-            //rb.AddForce(Vector3.up);
-            //jumping = false;
             
         }
          
@@ -198,6 +196,7 @@ public class PlayerMovement : MonoBehaviour
         //rb.AddForce(0, gravity*20f, 0);
         maxHeight = rb.transform.position.y + 1;
         inAir = true;
+        child.Play("Jump");
     }
 
     void OnCollisionEnter(Collision coll)
