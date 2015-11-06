@@ -20,3 +20,5 @@ Bugs:
   -Allen's bugs:
     -Camera won't rotate respectively of mouse's position
     -Orthographic view is more 2.5D/3D, than 2D
+      -Created separate camera for orthographic view. Created a function that would take the scale and position values of 
+       the level object and use those values to set up the position values of the orthocamera. 
