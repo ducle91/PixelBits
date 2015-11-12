@@ -8,10 +8,9 @@ public class PlayerMovement : MonoBehaviour
     //public float tSpeed = 50.0f;
     
     //Ray myRay;
-    public GameObject c;
     public Rigidbody rb; 
     public Animator child;
-    public Animation a;
+   
     
     Ray ray;
 
@@ -186,9 +185,23 @@ public class PlayerMovement : MonoBehaviour
         {
 			ray = new Ray(transform.position + rayOffset, new Vector3(0,0,0));
 			Debug.DrawRay(transform.position + rayOffset, new Vector3(0,0,0));
+            if(b.grabbed) placeObject(b.gameObject);
             b.grabbed = false; 
         }
         holding = false;
+    }
+
+    void placeObject(GameObject block) {
+        Ray dropRay = new Ray(block.transform.position, Vector3.down * 2);
+        RaycastHit placement;
+        if(Physics.Raycast(dropRay, out placement)){
+            if (placement.collider.gameObject.tag == "grid")
+            {
+                Vector3 newPos = placement.collider.gameObject.transform.position;
+                newPos.y = block.transform.position.y;
+                block.transform.position = newPos;
+            }
+        }
     }
 
     void jump()
