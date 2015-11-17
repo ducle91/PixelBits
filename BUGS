@@ -10,6 +10,8 @@ STEPS:
 
 Bugs:
 1. Player cannot jump while moving.
+  -We fixed it by adding in a condtional statement that checks to see whether the player is moving.
+  If the player is moving allow the player to jump when the spacebar is pressed.
 
 2. You when you grab an object, you grab every single one rather than the one you are pointing at.
 
