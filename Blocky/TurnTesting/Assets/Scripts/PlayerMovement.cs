@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    public Collider door;
     public float movementSpeed = 5.0f;
     //public float tSpeed = 50.0f;
     
@@ -34,7 +34,10 @@ public class PlayerMovement : MonoBehaviour
         blockOffset = new Vector3(0, 1.5f, 0);
        
     }
-
+    void OnTriggerEnter(Collider door)
+    {
+        Application.LoadLevel("Level2");
+    }
     // Update is called once per frame
     void Update()
     {
