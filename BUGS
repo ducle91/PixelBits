@@ -10,6 +10,8 @@ STEPS:
 
 Bugs:
 1. Player cannot jump while moving.
+  -We fixed it by adding in a condtional statement that checks to see whether the player is moving.
+  If the player is moving allow the player to jump when the spacebar is pressed.
 
 2. You when you grab an object, you grab every single one rather than the one you are pointing at.
 
@@ -25,3 +27,7 @@ Bugs:
       -Fixed: Instead of having camera follow character in the orthographic view, I set the camera's position so that the player
       can observe the entire level. Due to each level's scale values being varied, I'll have to set the orthographic camera's
       position for each scene(level).
+    -Orthocam wouldn't follow player after completing level
+
+6. Player went through the wall.
+  -Fix by adding box collider in unity to prevent player from going through the wall.
