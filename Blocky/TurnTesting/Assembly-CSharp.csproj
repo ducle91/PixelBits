@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\GrabDrop.cs" />
      <Compile Include="Assets\Scripts\GroupScripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\menuEffect.cs" />
      <Compile Include="Assets\box.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

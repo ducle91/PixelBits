@@ -18,11 +18,16 @@ public class CameraFollow : MonoBehaviour
         setUpOrtho();
     }
 
+	void OnTriggerEnter(Collider door)
+	{
+		if (door.CompareTag ("door")) {
+			this.transform.position = new Vector3(this.transform.position.x+100f,0,0);
+		}
+	}
     void Update()
     {
         if (!isOrtho)
         {
-
             if (Input.GetKeyDown(KeyCode.O))
             {
                 isOrtho = true;
